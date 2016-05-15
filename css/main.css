@@ -41,6 +41,7 @@ h2 {
   }
 
   #landing {
+    background-attachment: scroll;
     background-size: contain;
   }
 }
