@@ -20,7 +20,7 @@ h2 {
 
   background-image: url('../assets/img/clouds.png'), url('../assets/img/mountains.png');
   background-repeat: no-repeat;
-  background-attachment: fixed, fixed;
+  background-attachment: scroll, fixed;
   background-position: center bottom, center bottom;
   background-size: cover, cover;
 }
@@ -41,7 +41,8 @@ h2 {
   }
 
   #landing {
-    background-size: contain;
+    background-size: 100vw 55vh;
+    background-attachment: fixed, fixed;
   }
 }
 
