@@ -1,8 +1,76 @@
+html, body {
+  height: 100vh;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-.landing-text {
-  padding-top: 160px;
-  padding-bottom: 800px;
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#description {
+  font-family: 'Roboto Slab', serif;
+}
+
+#landing {
+  height: 90vh;
+  padding-top: 10vh;
+  background-image: url('../assets/img/mountains.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 0;
+  background-size: cover;
+  position: relative;
+}
+
+#about {
+  padding-top: 120px;
+  padding-bottom: 180px;
+}
+
+@media screen and (max-width: 1024px) {
+  #name {
+    font-size: 12vw;
+  }
+
+  #description {
+    font-size: 6vw;
+  }
+
+}
+
+nav > a {
+  font-family: 'Raleway', sans-serif;
+}
+
+#name {
+  font-family: 'Roboto Slab', serif;
+}
+
+#portfolio {
+  padding-bottom: 180px;
+}
+
+#contact {
+  padding-bottom: 50px;
+}
+
+.mdl-button > i {
+  padding-right: 5px;
+}
+
+#summary {
+  padding-bottom: 256px;
+}
+
+#resume-fab {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  z-index: 900;
 }
