@@ -20,7 +20,7 @@ h2 {
 
   background-image: url('../assets/img/mountains.png');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center bottom;
   background-size: cover;
 }
@@ -32,11 +32,16 @@ h2 {
 
 @media screen and (max-width: 1024px) {
   #name {
-    font-size: 12vw;
+    padding-top: 50px;
+    font-size: 10vw;
   }
 
   #description {
-    font-size: 6vw;
+    font-size: 3.5vw;
+  }
+
+  #landing {
+    background-size: contain;
   }
 }
 
@@ -69,7 +74,7 @@ nav > a {
   display: block;
   right: 0;
   bottom: 0;
-  margin-right: 40px;
+  margin-right: 25px;
   margin-bottom: 25px;
   z-index: 900;
 }
