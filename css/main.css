@@ -18,11 +18,11 @@ h2 {
   height: 90vh;
   padding-top: 10vh;
 
-  background-image: url('../assets/img/flatmountains.png');
+  background-image: url('../assets/img/clouds.png'), url('../assets/img/mountains.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center bottom;
-  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: center bottom, center bottom;
+  background-size: cover, cover;
 }
 
 #about {
@@ -41,13 +41,8 @@ h2 {
   }
 
   #landing {
-    background-attachment: scroll;
     background-size: contain;
   }
-}
-
-nav > a {
-  font-family: 'Raleway', sans-serif;
 }
 
 #name {
