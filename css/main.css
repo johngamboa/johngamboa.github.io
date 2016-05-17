@@ -14,15 +14,22 @@ h2 {
   font-family: 'Roboto Slab', serif;
 }
 
+#profile, #text-editor {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
 #landing {
   height: 90vh;
   padding-top: 10vh;
 
   background-image: url('../assets/img/clouds.png'), url('../assets/img/mountains.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll, fixed;
-  background-position: center bottom, center bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
   background-size: cover, cover;
+  background-position: top, top;
 }
 
 #about {
@@ -41,8 +48,11 @@ h2 {
   }
 
   #landing {
-    background-size: 100vw 55vh;
-    background-attachment: fixed, fixed;
+    background-image: url('../assets/img/clouds.png'), url('../assets/img/mountains.png');
+    background-position: bottom, bottom;
+    height: 75vh;
+    padding-top: 25vh;
+    background-size: contain, contain;
   }
 }
 
@@ -66,6 +76,10 @@ h2 {
   padding-bottom: 256px;
 }
 
+#summary > div {
+  vertical-align: middle;
+}
+
 #resume-fab {
   position: fixed;
   display: block;
@@ -82,4 +96,43 @@ h2 {
 
 .mdl-color-text--light-teal {
   color: #85bdb7;
+}
+
+.contact-button {
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  cursor: pointer;
+}
+
+#terminal-window {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#terminal-bar {
+  background-color: #DAD7D9;
+  font-size: 30px;
+  padding: 5px 5px 5px 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#terminal {
+  font-family: "Inconsolata", Courier, monospace;
+  font-size: 18px;
+  background-color: #373737;
+  padding: 25px 25px 25px 25px;
+  min-height: 50vh;
+  width: auto;
+}
+
+#terminal > b {
+  color: white;
+}
+
+#terminal > p {
+  font-size: 18px;
+  padding-left: 18px;
 }

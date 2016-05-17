@@ -6,7 +6,7 @@ $(function() {
       if (target.length) {
         $('.mdl-layout, .mdl-layout__content').animate({
           scrollTop: target.offset().top
-        }, 600);
+        }, 1200);
         return false;
       }
     }

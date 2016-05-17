@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/profile.png">
+
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.teal-red.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Inconsolata:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link rel="stylesheet" href="assets/font-awesome-4.6.3/css/font-awesome.min.css" type="text/css" />
+
     <script src="js/material.min.js"></script>
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
@@ -37,48 +42,123 @@
         </nav>
       </div>
       <main class="mdl-layout__content mdl-color-text--grey-500">
-        <section id="landing" class="mdl-typography--text-center mdl-color--light-teal" data-stellar-background-ratio="1.5">
+        <section id="landing" class="mdl-typography--text-center mdl-color--light-teal" data-stellar-background-ratio="1.25">
           <div id="name" class="mdl-typography--display-4 mdl-color-text--white">John Gamboa</div>
           <div id="description" class="mdl-typography--display-1 mdl-color-text--teal">Front-End Developer</div>
         </section>
         <section id="about">
           <div id="summary" class="mdl-grid">
-            <div class="mdl-cell mdl-cell--4-col mdl-cell--2-offset-desktop mdl-typography--headline">
-              Hi there! I'm John, a computer engineering student at UC San Diego, delving into the exciting worlds of
+            <div class="mdl-cell mdl-cell--middle mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--2-offset-desktop mdl-cell--order-2-tablet mdl-cell--order-1-phone mdl-typography--headline">
+              Hi there! I'm John Gamboa, a computer engineering student at UC San Diego diving into the exciting worlds of
               <b class="mdl-color-text--teal">software engineering</b> and
               <b class="mdl-color-text--teal">human-computer interaction</b>! <br /><br />
-              With a passion for designing and building <b class="mdl-color-text--teal">full-stack web applications</b>
-              with the user in mind, I aspire to deliver beautiful and intuitive experiences that users will enjoy!
+              With a passion for designing and crafting beautiful and intuitive products, I aspire to deliver quality
+              <b class="mdl-color-text--teal">web applications</b> that users will enjoy!
+            </div>
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--order-1-tabletmdl-cell--order-1-phone">
+              <img id="profile" src="assets/img/profile.png" />
             </div>
           </div>
           <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--4-col mdl-cell--2-offset-desktop mdl-typography--headline">
-
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet">
+              <div id="terminal-window">
+                <div id="terminal-bar">
+                  <span style="color: #FC5753; margin-right: -10px;">&#9899;</span>
+                  <span style="color: #FDBC40; margin-right: -10px;">&#9899;</span>
+                  <span style="color: #33C748">&#9899;</span>
+                </div>
+                <div id="terminal">
+                  <b>> john.home</b><br />
+                  <p>
+                    <span class="mdl-color-text--teal">'San Diego, California'</span>
+                  </p>
+                  <b>> john.occupation</b><br />
+                  <p>
+                    <span class="mdl-color-text--teal">'Software Developer Intern'</span>
+                  </p>
+                  <b>> john.skills</b><br />
+                  <p>[<span class="mdl-color-text--teal"> 'JavaScript' </span>,
+                    <span class="mdl-color-text--teal">'AngularJS' </span>,
+                    <span class="mdl-color-text--teal">'Node.js' </span>,
+                    <span class="mdl-color-text--teal">'ExpressJS' </span>,
+                    <span class="mdl-color-text--teal">'MongoDB' </span>,
+                    <span class="mdl-color-text--teal">'jQuery' </span>,
+                    <span class="mdl-color-text--teal">'Java' </span>,
+                    <span class="mdl-color-text--teal">'HTML' </span>,
+                    <span class="mdl-color-text--teal">'CSS' </span>,
+                    <span class="mdl-color-text--teal">'Python' </span>,
+                    <span class="mdl-color-text--teal">'C' </span>]
+                  </p>
+                  <b>> john.coursework</b><br />
+                  <p>[<span class="mdl-color-text--teal"> 'HCI Programming Studio' </span>,
+                    <span class="mdl-color-text--teal">'Interaction Design' </span>,
+                    <span class="mdl-color-text--teal">'Software Engineering' </span>,
+                    <span class="mdl-color-text--teal">'Design and Analysis of Algorithms' </span>,
+                    <span class="mdl-color-text--teal">'Advanced Data Structures' </span>]
+                  </p>
+                  <b>> john.organizations</b><br />
+                  <p>[
+                    <span class="mdl-color-text--teal"> 'SD Hacks' </span>,
+                    <span class="mdl-color-text--teal">'IEEE UCSD' </span>,
+                    <span class="mdl-color-text--teal">'Kaibigang Pilipin@' </span>,
+                    <span class="mdl-color-text--teal">'Musicians' Club @ UCSD' </span>
+                    ]
+                  </p>
+                  <b>> john.likes</b><br />
+                  <p>[<span class="mdl-color-text--teal"> 'coffee' </span>,
+                    <span class="mdl-color-text--teal">'sushi' </span>,
+                    <span class="mdl-color-text--teal">'pugs' </span>,
+                    <span class="mdl-color-text--teal">'origami' </span>,
+                    <span class="mdl-color-text--teal">'jazzy hip-hop' </span>,
+                    <span class="mdl-color-text--teal">'r&b' </span>,
+                    <span class="mdl-color-text--teal">'hiking' </span>]
+                  </p>
+                  <b>> john.resume</b><br />
+                  <p>
+                    <span class="mdl-color-text--teal">'johngamboa.pdf'</span>
+                  </p>
+                  <b>> john.email</b><br />
+                  <p>
+                    <span class="mdl-color-text--teal">'johnhadriansgamboa@gmail.com'</span>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="mdl-cell mdl-cell--4-col mdl-typography--headline">
-              My most favorite technologies for building small web applications are <b class="mdl-color-text--teal">MongoDB</b>,
-              <b class="mdl-color-text--teal">Express.js</b>, <b class="mdl-color-text--teal">AngularJS</b>,
-              and <b class="mdl-color-text--teal">Node.js</b> due to the ease and speed of development by using
-              <b class="mdl-color-text--teal">JavaScript</b> across the entire stack.<br /><br />
-              I am currently delving into <b class="mdl-color-text--teal">ReactJS</b>,
-              <b class="mdl-color-text--teal">Flux</b> and <b class="mdl-color-text--teal">Polymer</b> to
-              broaden my technical skillset and to further challenge myself.
-            </div>
+          </div>
         </section>
         <section id="portfolio" class="mdl-typography--text-center">
           <h2 class="mdl-typography--display-3 mdl-color-text--teal">Portfolio</h2>
-          <p class="mdl-typography--display-1">Under construction.</p>
+          <p class="mdl-typography--display-1">Please check back soon!</p>
         </section>
         <section id="contact">
           <div class="mdl-typography--text-center">
-            <a href="https://www.github.com/johngamboa" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--teal">
-              <i class="fa fa-github mdl-color-text--white" aria-hidden="true"></i>
-              <span class="mdl-color-text--white">GitHub</span>
+            <a class="contact-button" href="mailto:johnhadriansgamboa@gmail.com">
+              <span id="email" class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x mdl-color-text--teal"></i>
+                <i class="fa fa-envelope fa-stack-1x mdl-color-text--white"></i>
+              </span>
             </a>
-            <a href="https://www.linkedin.com/in/jhgamboa" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--teal">
-              <i class="fa fa-linkedin mdl-color-text--white" aria-hidden="true"></i>
-              <span class="mdl-color-text--white">LinkedIn</span>
+            <div class="mdl-tooltip mdl-tooltip--bottom" for="email">
+              E-Mail
+            </div>
+            <a class="contact-button" href="https://www.github.com/johngamboa" target="_blank">
+              <span id="github" class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x mdl-color-text--white"></i>
+                <i class="fa fa-github fa-stack-2x mdl-color-text--teal"></i>
+              </span>
             </a>
+            <div class="mdl-tooltip mdl-tooltip--bottom" for="github">
+              GitHub
+            </div>
+            <a class="contact-button" href="https://www.linkedin.com/in/jhgamboa" target="_blank">
+              <span id="linkedin" class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x mdl-color-text--teal"></i>
+                <i class="fa fa-linkedin fa-stack-1x mdl-color-text--white"></i>
+              </span>
+            </a>
+            <div class="mdl-tooltip mdl-tooltip--bottom" for="linkedin">
+              LinkedIn
+            </div>
           </div>
         </section>
         <footer class="mdl-mini-footer">
@@ -92,10 +172,10 @@
       </main>
     </div>
     <button id="resume-fab" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-      <i class="material-icons">insert_drive_file</i>
+      <i class="material-icons">file_download</i>
     </button>
     <div class="mdl-tooltip mdl-tooltip--left" for="resume-fab">
-      Download resume.
+      Resume
     </div>
   </body>
 </html>
