@@ -19,7 +19,7 @@ h2 {
   display: block;
   margin: 0 0;
   width: 300px;
-  height: 300px;
+  height: 600px;
 }
 
 #landing {
@@ -126,8 +126,6 @@ h2 {
   }
 
   #landing {
-    background-image: url('../assets/img/clouds.png'), url('../assets/img/mountains.png');
-    background-attachment: scroll, scroll;
     height: 75vh;
     padding-top: 25vh;
   }
@@ -135,5 +133,8 @@ h2 {
   #profile {
     float: none;
     margin: 0 auto;
+    width: 250px;
+    height: 500px;
+    padding-left: 0;
   }
 }
