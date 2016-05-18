@@ -38,7 +38,7 @@ h2 {
   padding-bottom: 180px;
 }
 
-#portfolio {
+#portfolio, #experience {
   padding-bottom: 180px;
 }
 
@@ -112,7 +112,6 @@ h2 {
 
 #terminal > p {
   font-size: 18px;
-  padding-left: 18px;
 }
 
 @media screen and (max-width: 1024px) {
