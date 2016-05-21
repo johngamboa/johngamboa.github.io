@@ -3,16 +3,26 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2, h6 {
   font-family: 'Raleway', sans-serif;
 }
 
+.summary-content > * {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.summary-content > b {
+  font-weight: bold;
+}
 
 #name {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Raleway', serif;
   text-align: center;
 }
 
@@ -40,6 +50,7 @@ h2, h6 {
 }
 
 #about-list {
+  padding-top: 25px;
   padding-bottom: 100px;
 }
 
@@ -57,6 +68,10 @@ h2, h6 {
 
 #summary > div {
   vertical-align: middle;
+}
+
+#portfolio {
+  padding-bottom: 100px;
 }
 
 #resume-fab {
@@ -116,7 +131,7 @@ h2, h6 {
   font-size: 16px;
 }
 
-.experience-img {
+.experience-img, .involvement-img {
   display: inline-block;
   float: right;
   width: 50px;
@@ -124,19 +139,39 @@ h2, h6 {
   vertical-align: top;
 }
 
-.experience-title {
+.experience-title, .involvement-title {
   display: inline-block;
   width: 100%;
 }
 
-.experience-duration > * {
+.experience-duration > *, .involvement-duration > * {
   display: block;
   float: right;
 }
 
 .mdl-logo > img {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
+}
+
+.mdl-card {
+  width: 100%;
+}
+
+.mdl-card__title {
+  height: 256px;
+}
+
+#fitkit > div.mdl-card__title {
+  background: url('../assets/img/fitkit.png') center / cover;
+}
+
+#studybuddy > div.mdl-card__title {
+  background: url('../assets/img/studybuddy.png') center / cover;
+}
+
+#ucsdcki > div.mdl-card__title {
+  background: url('../assets/img/ucsdcki.png') center / cover;
 }
 
 @media screen and (max-width: 1024px) {

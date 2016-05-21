@@ -60,6 +60,7 @@
           <nav class="mdl-navigation mdl-layout--large-screen-only">
             <a class="mdl-navigation__link" href="#about">About</a>
             <a class="mdl-navigation__link" href="#experience">Experience</a>
+            <a class="mdl-navigation__link" href="#involvement">Involvement</a>
             <a class="mdl-navigation__link" href="#portfolio">Portfolio</a>
             <a class="mdl-navigation__link" href="#contact">Contact</a>
           </nav>
@@ -71,6 +72,7 @@
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link mdl-color-text--teal" href="#about">About</a>
           <a class="mdl-navigation__link" href="#experience">Experience</a>
+          <a class="mdl-navigation__link" href="#involvement">Involvement</a>
           <a class="mdl-navigation__link mdl-color-text--teal" href="#portfolio">Portfolio</a>
           <a class="mdl-navigation__link mdl-color-text--teal" href="#contact">Contact</a>
         </nav>
@@ -88,7 +90,7 @@
         <!-- About -->
         <section id="about">
           <div id="summary" class="mdl-grid">
-            <div class="summary-content mdl-cell mdl-cell--middle mdl-cell--3-col-desktop mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-cell--order-2-tablet mdl-cell--order-1-phone mdl-typography--headline">
+            <div class="summary-content mdl-cell mdl-cell--middle mdl-cell--3-col-desktop mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-cell--order-2-tablet mdl-cell--order-1-phone">
               <span>Hi there! I'm John Gamboa, an aspiring software engineer diving into the exciting worlds of</span>
               <b class="mdl-color-text--teal">web development</b>
               <span> and</span>
@@ -98,7 +100,7 @@
               <b class="mdl-color-text--teal">computer science</b>
               <span>and</span>
               <b class="mdl-color-text--teal">human-computer interaction</b>
-              <span>to the practical design and implementation of web applications,</span>
+              <span>to the design and implementation of web applications,</span>
               <span>I aspire to deliver beautiful and robust products that users will love!</span>
             </div>
 
@@ -110,8 +112,10 @@
 
           <!-- Terminal -->
           <div id="about-list" class="mdl-grid mdl-color--light-teal">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--white">
+              <h6>ABOUT</h6>
+            </div>
             <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet">
-              <h6 class="mdl-color-text--white">ABOUT</h6><br>
               <div id="terminal-window">
                 <div id="terminal-bar">
                   <span style="color: #FC5753; margin-right: -10px;">&#9899;</span>
@@ -224,11 +228,117 @@
             </div>
           </div>
         </section>
-        <section id="portfolio">
-          <div class="mdl-cell mdl-cell--6-desktop mdl-cell--3-offset-desktop">
-            <h6>PORTFOLIO</h6>
+
+        <!-- Involvement -->
+        <section id="involvement">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet">
+              <h6>INVOLVEMENT</h6>
+            </div>
+          </div>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--top mdl-cell--3-col-desktop mdl-cell--1-col-tablet mdl-cell--hide-phone">
+              <img src="assets/img/sdhacks.png" class="involvement-img" />
+            </div>
+            <div class="mdl-cell mdl-cell--top mdl-cell--6-col-desktop mdl-cell--6-col-tablet">
+              <div class="involvement-title">
+                <span class="mdl-typography--headline">Organizer, Tech Team Member</span>
+                <span class="involvement-duration mdl-cell--hide-phone"><b>January 2016 - present</b></span>
+                <p><i>SD Hacks</i></p>
+                <p class="mdl-color-text--grey-600">
+                  <ul>
+                    <li>Responsible for developing technical aspects of hackathon.</li>
+                    <li>Developing back-end API for organization’s registration website that allows for user and team registration.</li>
+                    <li>Assisting with logistics of hackathon.</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--top mdl-cell--3-col-desktop mdl-cell--1-col-tablet mdl-cell--hide-phone">
+              <img src="assets/img/ieeeucsd.png" class="involvement-img" />
+            </div>
+            <div class="mdl-cell mdl-cell--top mdl-cell--6-col-desktop mdl-cell--6-col-tablet">
+              <div class="involvement-title">
+                <span class="mdl-typography--headline">Micromouse Assistant Team Lead</span>
+                <span class="involvement-duration mdl-cell--hide-phone"><b>October 2013 - May 2016</b></span>
+                <p><i>IEEE UCSD Student Branch</i></p>
+                <p class="mdl-color-text--grey-600">
+                  <ul>
+                    <li>Co-lead team of five in building software aspects of autonomous robot involving writing maze-solving flood-fill algorithm and implementing maze-mapping algorithm.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
           </div>
         </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--9-col-desktop mdl-cell--3-offset-desktop">
+              <h6>PORTFOLIO</h6>
+            </div>
+          </div>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop">
+              <div id="fitkit" class="mdl-card">
+                <div class="mdl-card__title"></div>
+                <div class="mdl-card__supporting-text">
+                  <b>FitKit</b><br /><br />
+                  <p>
+                    Built Android application with team of five developers that keeps track of the
+                    user's health profile, body mass index, and weekly calorie intake.
+                    Implemented back-end solution using Parse, led team stand-up meetings,
+                    wrote end-to-end tests.
+                  </p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.github.com/johngamboa/FitKit" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col-desktop">
+              <div id="studybuddy" class="mdl-card">
+                <div class="mdl-card__title"></div>
+                <div class="mdl-card__supporting-text">
+                  <b>StudyBuddy</b><br /><br />
+                  <p>
+                    Built mobile web appplication that allows users to easily search, join and create course study
+                    groups. Led team of two student designers in planning and building an end-to-end
+                    AngularJS and Node.js project.
+                  </p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.github.com/johngamboa/studybuddytwo" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop">
+              <div id="ucsdcki" class="mdl-card">
+                <div class="mdl-card__title"></div>
+                <div class="mdl-card__supporting-text">
+                  <b>UCSD Circle K Website</b><br /><br />
+                  <p>
+                    Implemented front-end aspects of organization’s AngularJS site
+                    with team of five designers and devlopers by building a
+                    smooth and appealing interface that catered to users’ needs. Designed to allow
+                    users to easily register for, create, and view Circle K social and service events, as
+                    well as look up organization information.
+                  </p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.github.com/johngamboa/FitKit" target="_blank">GitHub</a>
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="ucsdcki.org" target="_blank">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
         <section id="contact">
           <div class="mdl-typography--text-center">
             <a class="contact-button" href="mailto:johnhadriansgamboa@gmail.com">
