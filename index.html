@@ -48,11 +48,13 @@
     <!-- Custom JS -->
     <script src="js/scroll.js"></script>
     <script src="js/parallax.js"></script>
+    <script src="js/cards.js"></script>
 
     <title>johngamboa</title>
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout">
+
       <!-- Navbar -->
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--light-teal">
         <div class="mdl-layout__header-row">
@@ -114,6 +116,7 @@
           <div id="about-list" class="mdl-grid mdl-color--light-teal">
             <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--white">
               <h6>ABOUT</h6>
+              <hr />
             </div>
             <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet">
               <div id="terminal-window">
@@ -185,6 +188,7 @@
           <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet">
               <h6>EXPERIENCE</h6>
+              <hr />
             </div>
           </div>
           <div class="mdl-grid">
@@ -234,6 +238,7 @@
           <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet">
               <h6>INVOLVEMENT</h6>
+              <hr />
             </div>
           </div>
           <div class="mdl-grid">
@@ -278,10 +283,27 @@
           <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--9-col-desktop mdl-cell--3-offset-desktop">
               <h6>PORTFOLIO</h6>
+              <hr />
             </div>
           </div>
           <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop">
+              <div id="johngamboa" class="mdl-card">
+                <div class="mdl-card__title"></div>
+                <div class="mdl-card__supporting-text">
+                  <b>Personal Website</b><br /><br />
+                  <p>
+                    Built responsive website using HTML, CSS, JS, and jQuery to showcase skills and projects in development and design.
+                    Utilized Google's Material Design Lite and Material Icons, Stellar.js, and Font Awesome.
+                    Assets by Leann Gamboa.
+                  </p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.github.com/johngamboa/johngamboa.github.io" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col-desktop">
               <div id="fitkit" class="mdl-card">
                 <div class="mdl-card__title"></div>
                 <div class="mdl-card__supporting-text">
@@ -298,7 +320,9 @@
                 </div>
               </div>
             </div>
-            <div class="mdl-cell mdl-cell--3-col-desktop">
+          </div>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop">
               <div id="studybuddy" class="mdl-card">
                 <div class="mdl-card__title"></div>
                 <div class="mdl-card__supporting-text">
@@ -314,23 +338,19 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop">
+            <div class="mdl-cell mdl-cell--3-col-desktop">
               <div id="ucsdcki" class="mdl-card">
                 <div class="mdl-card__title"></div>
                 <div class="mdl-card__supporting-text">
                   <b>UCSD Circle K Website</b><br /><br />
                   <p>
                     Implemented front-end aspects of organization’s AngularJS site
-                    with team of five designers and devlopers by building a
-                    smooth and appealing interface that catered to users’ needs. Designed to allow
-                    users to easily register for, create, and view Circle K social and service events, as
-                    well as look up organization information.
+                    with tech team by building a smooth and appealing interface that allows
+                    users to easily register for, create, and view social and service events and look up organization information.
                   </p>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.github.com/johngamboa/FitKit" target="_blank">GitHub</a>
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/ucsdcirclek/konnection-frontend" target="_blank">GitHub</a>
                   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="ucsdcki.org" target="_blank">Website</a>
                 </div>
               </div>
@@ -364,6 +384,8 @@
             <div class="mdl-tooltip mdl-tooltip--bottom" for="linkedin">LinkedIn</div>
           </div>
         </section>
+
+        <!-- Footer -->
         <footer class="mdl-mini-footer">
           <div class="mdl-mini-footer__left-section">
             <div class="mdl-logo"><img src="assets/img/avatar.png" /></div>
@@ -374,11 +396,11 @@
         </footer>
       </main>
     </div>
+
+    <!-- Resume FAB -->
     <button id="resume-fab" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
       <i class="material-icons">file_download</i>
     </button>
-    <div class="mdl-tooltip mdl-tooltip--left" for="resume-fab">
-      Resume
-    </div>
+    <div class="mdl-tooltip mdl-tooltip--left" for="resume-fab">Resume</div>
   </body>
 </html>

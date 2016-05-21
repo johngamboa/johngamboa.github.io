@@ -162,6 +162,13 @@ h2, h6 {
   height: 256px;
 }
 
+#johngamboa > div.mdl-card__title {
+  background: url('../assets/img/johngamboa.png') center / contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #85bdb7;
+}
+
 #fitkit > div.mdl-card__title {
   background: url('../assets/img/fitkit.png') center / cover;
 }
