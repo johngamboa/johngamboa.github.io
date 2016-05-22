@@ -41,6 +41,7 @@ h2, h6 {
 #landing {
   height: 90vh;
   padding-top: 10vh;
+  position: relative;
 
   background-image: url('../assets/img/desk.png');
   background-repeat: no-repeat;
