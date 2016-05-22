@@ -8,7 +8,7 @@ $(function() {
   });
 
   $(document).ready(function() {
-    ($(window).width() > 1024) ? landing.attr('data-stellar-background-ratio', '0.5')
+    ($(window).width() > 1024) ? landing.attr('data-stellar-background-ratio', '0.35')
                                : landing.removeAttr('data-stellar-background-ratio');
 
     $.stellar('refresh');
@@ -17,7 +17,7 @@ $(function() {
   $(window).resize(function() {
     console.log($(window).width());
     if ($(window).width() > 1024) {
-      landing.attr('data-stellar-background-ratio', '0.5');
+      landing.attr('data-stellar-background-ratio', '0.35');
     }
     else {
       landing.removeAttr('data-stellar-background-ratio');
