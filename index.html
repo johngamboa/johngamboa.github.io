@@ -32,6 +32,9 @@
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" type="text/css" />
 
@@ -45,6 +48,10 @@
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
 
+    <!-- WOW.js -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW({offset: 50}).init();</script>
+
     <!-- Custom JS -->
     <script src="js/scroll.js"></script>
     <script src="js/parallax.js"></script>
@@ -53,7 +60,7 @@
     <title>johngamboa</title>
   </head>
   <body>
-    <div class="mdl-layout mdl-js-layout">
+    <div>
 
       <!-- Navbar -->
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--light-teal mdl-color-text--white">
@@ -81,22 +88,32 @@
       </div>
 
       <!-- Main content -->
-      <main class="mdl-layout__content mdl-color-text--grey-500 mdl-color--grey-50">
+      <main class="mdl-color-text--grey-500 mdl-color--grey-50">
 
         <!-- Landing -->
         <section id="landing" class="mdl-typography--text-center mdl-color--light-teal" data-stellar-background-ratio="0.35">
-          <div id="name" class="mdl-typography--display-4 mdl-color-text--white">John Gamboa</div>
-          <div id="description" class="mdl-typography--display-1 mdl-color-text--teal">Software Developer</div>
+          <div>
+            <div class="mdl-cell--hide-phone mdl-cell--hide-tablet">
+              <svg id="animated-name" class="wow fadeInDown" width="700" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <text class="path" xml:space="preserve" text-anchor="middle" font-size="100" id="svg_1" y="100" x="350" stroke-width="1" stroke="#ffffff" fill="#ffffff">John Gamboa</text>
+                <text class="path" xml:space="preserve" text-anchor="middle" font-size="34" id="svg_1" y="150" x="350" stroke-width="1" stroke="#009688" fill="#009688">Software Developer</text>
+              </svg>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-cell--hide-desktop">
+              <div id="name" class="mdl-typography--display-4 mdl-color-text--white wow fadeInDown">John Gamboa</div>
+              <div id="description" class="mdl-typography--display-1 mdl-color-text--teal wow fadeInUp">Software Developer</div>
+            </div>
+          </div>
         </section>
 
         <!-- About -->
         <section id="about">
-          <div id="summary" class="mdl-grid">
+          <div id="summary" class="mdl-grid wow fadeInUp ">
             <div class="summary-content mdl-cell mdl-cell--middle mdl-cell--3-col-desktop mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-cell--order-2-tablet mdl-cell--order-1-phone">
               <span>Hi there! I'm John Gamboa, an aspiring software engineer diving into the exciting worlds of</span>
               <b class="mdl-color-text--teal">web development</b>
               <span> and</span>
-              <b class="mdl-color-text--teal">UX/UI design</b><span>!</span>
+              <b class="mdl-color-text--teal">UX/UI design</b><span>.</span>
               <br /><br />
               <span>With a passion for applying</span>
               <b class="mdl-color-text--teal">computer science</b>
@@ -114,7 +131,7 @@
 
           <!-- Terminal -->
           <div id="about-list" class="mdl-grid" style="background-color: #517773;">
-            <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet wow fadeInUp">
               <div id="terminal-window">
                 <div id="terminal-bar">
                   <span style="color: #FC5753; margin-right: -10px;">&#9899;</span>
@@ -174,7 +191,7 @@
         </section>
 
         <!-- Experience -->
-        <section id="experience">
+        <section id="experience" class="wow fadeInUp">
           <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--teal">
               <h6 class="mdl-typography--font-bold">EXPERIENCE</h6>
@@ -224,7 +241,7 @@
         </section>
 
         <!-- Involvement -->
-        <section id="involvement">
+        <section id="involvement" class="wow fadeInUp">
           <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--teal">
               <h6 class="mdl-typography--font-bold">INVOLVEMENT</h6>
@@ -270,21 +287,21 @@
 
         <!-- Portfolio -->
         <section id="portfolio">
-          <div class="mdl-grid">
+          <div class="mdl-grid wow fadeInUp">
             <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--teal">
               <h6 class="mdl-typography--font-bold">PORTFOLIO</h6>
               <hr class="mdl-color--teal" />
             </div>
           </div>
           <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop">
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop wow fadeInLeft">
               <div id="johngamboa" class="mdl-card">
                 <div class="mdl-card__title"></div>
                 <div class="mdl-card__supporting-text">
                   <b>Personal Website</b><br /><br />
                   <p>
                     Built responsive website using HTML, CSS, JavaScript and jQuery to showcase skills and projects in development and design.
-                    Utilized Google's Material Design Lite and Material Icons, Stellar.js, and Font Awesome.
+                    Utilized Google's Material Design Lite and Material Icons, Animate.css, WOW.js, Stellar.js, and Font Awesome.
                     Assets by Leann Gamboa.
                   </p>
                 </div>
@@ -293,7 +310,7 @@
                 </div>
               </div>
             </div>
-            <div class="mdl-cell mdl-cell--3-col-desktop">
+            <div class="mdl-cell mdl-cell--3-col-desktop wow fadeInRight">
               <div id="fitkit" class="mdl-card">
                 <div class="mdl-card__title"></div>
                 <div class="mdl-card__supporting-text">
@@ -312,7 +329,7 @@
             </div>
           </div>
           <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop">
+            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop wow fadeInLeft">
               <div id="studybuddy" class="mdl-card">
                 <div class="mdl-card__title"></div>
                 <div class="mdl-card__supporting-text">
@@ -328,7 +345,7 @@
                 </div>
               </div>
             </div>
-            <div class="mdl-cell mdl-cell--3-col-desktop">
+            <div class="mdl-cell mdl-cell--3-col-desktop wow fadeInRight">
               <div id="ucsdcki" class="mdl-card">
                 <div class="mdl-card__title"></div>
                 <div class="mdl-card__supporting-text">
@@ -351,21 +368,21 @@
         <!-- Contact -->
         <section id="contact">
           <div class="mdl-typography--text-center">
-            <a class="contact-button" href="mailto:johnhadriansgamboa@gmail.com">
+            <a class="contact-button wow fadeIn" href="mailto:johnhadriansgamboa@gmail.com">
               <span id="email" class="fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x mdl-color-text--teal"></i>
                 <i class="fa fa-envelope fa-stack-1x mdl-color-text--white"></i>
               </span>
             </a>
             <div class="mdl-tooltip mdl-tooltip--bottom" for="email">E-Mail</div>
-            <a class="contact-button" href="https://www.github.com/johngamboa" target="_blank">
+            <a class="contact-button wow fadeIn" href="https://www.github.com/johngamboa" target="_blank">
               <span id="github" class="fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x mdl-color-text--white"></i>
                 <i class="fa fa-github fa-stack-2x mdl-color-text--teal"></i>
               </span>
             </a>
             <div class="mdl-tooltip mdl-tooltip--bottom" for="github">GitHub</div>
-            <a class="contact-button" href="https://www.linkedin.com/in/jhgamboa" target="_blank">
+            <a class="contact-button wow fadeIn" href="https://www.linkedin.com/in/jhgamboa" target="_blank">
               <span id="linkedin" class="fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x mdl-color-text--teal"></i>
                 <i class="fa fa-linkedin fa-stack-1x mdl-color-text--white"></i>

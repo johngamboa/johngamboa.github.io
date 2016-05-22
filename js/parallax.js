@@ -2,9 +2,10 @@ $(function() {
 
   var landing = $('#landing');
 
-  $('.mdl-layout, .mdl-layout__content').stellar({
+  $.stellar({
     horizontalScrolling : false,
-    responsive          : true
+    responsive          : true,
+    verticalOffset      : 90
   });
 
   $(document).ready(function() {
@@ -15,7 +16,6 @@ $(function() {
   });
 
   $(window).resize(function() {
-    console.log($(window).width());
     if ($(window).width() > 1024) {
       landing.attr('data-stellar-background-ratio', '0.35');
     }
