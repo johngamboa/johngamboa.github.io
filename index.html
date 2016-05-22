@@ -56,7 +56,7 @@
     <div class="mdl-layout mdl-js-layout">
 
       <!-- Navbar -->
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--light-teal">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--light-teal mdl-color-text--white">
         <div class="mdl-layout__header-row">
           <div class="mdl-layout-spacer"></div>
           <nav class="mdl-navigation mdl-layout--large-screen-only">
@@ -84,7 +84,7 @@
       <main class="mdl-layout__content mdl-color-text--grey-500 mdl-color--grey-50">
 
         <!-- Landing -->
-        <section id="landing" class="mdl-typography--text-center mdl-color--white" data-stellar-background-ratio="1.25">
+        <section id="landing" class="mdl-typography--text-center mdl-color--light-teal" data-stellar-background-ratio="0.35">
           <div id="name" class="mdl-typography--display-4 mdl-color-text--white">John Gamboa</div>
           <div id="description" class="mdl-typography--display-1 mdl-color-text--teal">Developer & Designer</div>
         </section>
@@ -114,10 +114,6 @@
 
           <!-- Terminal -->
           <div id="about-list" class="mdl-grid mdl-color--light-teal">
-            <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--white">
-              <h6>ABOUT</h6>
-              <hr />
-            </div>
             <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet">
               <div id="terminal-window">
                 <div id="terminal-bar">
@@ -146,12 +142,6 @@
                   <b>> john.graduation</b><br />
                   <p class="terminal-content">
                     <span class="mdl-color-text--teal">'March 2017'</span>
-                  </p>
-                  <b>> john.organizations</b><br />
-                  <p class="terminal-content">
-                    [<span class="mdl-color-text--teal">'SD Hacks'</span>,
-                    <span class="mdl-color-text--teal">'IEEE UCSD'</span>,
-                    <span class="mdl-color-text--teal">'Kaibigang Pilipin@'</span>]
                   </p>
                   <b>> john.skills</b><br />
                   <p class="terminal-content">
@@ -186,9 +176,9 @@
         <!-- Experience -->
         <section id="experience">
           <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet">
-              <h6>EXPERIENCE</h6>
-              <hr />
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--teal">
+              <h6 class="mdl-typography--font-bold">EXPERIENCE</h6>
+              <hr class="mdl-color--teal" />
             </div>
           </div>
           <div class="mdl-grid">
@@ -236,9 +226,9 @@
         <!-- Involvement -->
         <section id="involvement">
           <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet">
-              <h6>INVOLVEMENT</h6>
-              <hr />
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--teal">
+              <h6 class="mdl-typography--font-bold">INVOLVEMENT</h6>
+              <hr class="mdl-color--teal" />
             </div>
           </div>
           <div class="mdl-grid">
@@ -281,9 +271,9 @@
         <!-- Portfolio -->
         <section id="portfolio">
           <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--9-col-desktop mdl-cell--3-offset-desktop">
-              <h6>PORTFOLIO</h6>
-              <hr />
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--3-offset-desktop mdl-cell--6-col-tablet mdl-cell--1-offset-tablet mdl-color-text--teal">
+              <h6 class="mdl-typography--font-bold">PORTFOLIO</h6>
+              <hr class="mdl-color--teal" />
             </div>
           </div>
           <div class="mdl-grid">
@@ -293,7 +283,7 @@
                 <div class="mdl-card__supporting-text">
                   <b>Personal Website</b><br /><br />
                   <p>
-                    Built responsive website using HTML, CSS, JS, and jQuery to showcase skills and projects in development and design.
+                    Built responsive website using HTML, CSS, JavaScript and jQuery to showcase skills and projects in development and design.
                     Utilized Google's Material Design Lite and Material Icons, Stellar.js, and Font Awesome.
                     Assets by Leann Gamboa.
                   </p>
@@ -345,13 +335,13 @@
                   <b>UCSD Circle K Website</b><br /><br />
                   <p>
                     Implemented front-end aspects of organization’s AngularJS site
-                    with tech team by building a smooth and appealing interface that allows
+                    with team of five designers and developers by building a smooth and appealing interface that allows
                     users to easily register for, create, and view social and service events and look up organization information.
                   </p>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
                   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/ucsdcirclek/konnection-frontend" target="_blank">GitHub</a>
-                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="ucsdcki.org" target="_blank">Website</a>
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://www.ucsdcki.org" target="_blank">Website</a>
                 </div>
               </div>
             </div>
@@ -398,9 +388,9 @@
     </div>
 
     <!-- Resume FAB -->
-    <button id="resume-fab" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+    <a id="resume-fab" href="assets/JohnGamboa.pdf" target="_blank" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
       <i class="material-icons">file_download</i>
-    </button>
+    </a>
     <div class="mdl-tooltip mdl-tooltip--left" for="resume-fab">Resume</div>
   </body>
 </html>

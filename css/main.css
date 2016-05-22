@@ -42,15 +42,14 @@ h2, h6 {
   height: 90vh;
   padding-top: 10vh;
 
-  background-image: url('../assets/img/clouds.png'), url('../assets/img/mountains.png');
-  background-repeat: no-repeat, no-repeat;
-  background-attachment: fixed, fixed;
-  background-size: cover, cover;
-  background-position: top, top;
+  background-image: url('../assets/img/desk.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
 #about-list {
-  padding-top: 25px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 

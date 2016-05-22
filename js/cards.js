@@ -10,6 +10,9 @@ $(function() {
 
   /* Adjust side-by-side card text height to be even */
   function adjustCardHeight() {
+
+    resetDefaultCardHeight();
+
     (johngamboa.height() > fitkit.height()) ? fitkit.height(johngamboa.height())
                                             : johngamboa.height(fitkit.height());
 
