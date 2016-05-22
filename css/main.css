@@ -221,7 +221,8 @@ h2, h6 {
     padding-top: 15vh;
     background-attachment: fixed;
 
-    background-image: url('../assets/img/desk-mobile.png');
+    background-size: contain;
+    background-position: center;
   }
 
   #profile {
