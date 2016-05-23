@@ -4,7 +4,7 @@ $(function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        $('.mdl-layout, .mdl-layout__content').animate({
+        $('html, body').animate({
           scrollTop: target.offset().top
         }, 1200);
         return false;
