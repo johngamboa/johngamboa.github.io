@@ -96,7 +96,7 @@ h2, h6 {
 }
 
 #portfolio {
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 #resume-fab {
@@ -187,6 +187,14 @@ h2, h6 {
   height: 256px;
 }
 
+#youber > div.mdl-card__title {
+  background: url('../assets/img/youber.png') center / cover;
+}
+
+#tritoned > div.mdl-card__title {
+  background: url('../assets/img/tritoned.png') center / cover;
+}
+
 #johngamboa > div.mdl-card__title {
   background: url('../assets/img/johngamboa.png') center / contain;
   background-position: top;
@@ -203,7 +211,7 @@ h2, h6 {
 }
 
 #ucsdcki > div.mdl-card__title {
-  background: url('../assets/img/ucsdcki.png') center / cover;
+  background: url('../assets/img/ucsdcki.png') no-repeat center / cover;
 }
 
 @media screen and (max-width: 1024px) {
