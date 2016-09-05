@@ -191,6 +191,10 @@ h2, h6 {
   height: 256px;
 }
 
+#itzlit > div.mdl-card__title {
+  background: url('../assets/img/itzlit.png') center / cover;
+}
+
 #youber > div.mdl-card__title {
   background: url('../assets/img/youber.png') center / cover;
 }
