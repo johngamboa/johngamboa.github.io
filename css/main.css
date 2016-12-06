@@ -191,10 +191,6 @@ h2, h6 {
   height: 256px;
 }
 
-#cogs187a > div.mdl-card__title {
-  background: url('../assets/img/cogs187a.png') center / cover;
-}
-
 #itzlit > div.mdl-card__title {
   background: url('../assets/img/itzlit.png') center / cover;
 }

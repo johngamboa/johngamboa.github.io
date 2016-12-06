@@ -1,9 +1,5 @@
 $(function() {
-  var cogs187a   = $('#cogs187a > div.mdl-card__supporting-text > p'),
-      itzlit     = $('#itzlit > div.mdl-card__supporting-text > p'),
-      youber     = $('#youber > div.mdl-card__supporting-text > p'),
-      tritoned   = $('#tritoned > div.mdl-card__supporting-text > p'),
-      johngamboa = $('#johngamboa > div.mdl-card__supporting-text > p'),
+  var johngamboa = $('#johngamboa > div.mdl-card__supporting-text > p'),
       fitkit     = $('#fitkit > div.mdl-card__supporting-text > p'),
       studybuddy = $('#studybuddy > div.mdl-card__supporting-text > p'),
       ucsdcki    = $('#ucsdcki > div.mdl-card__supporting-text > p');
@@ -16,12 +12,6 @@ $(function() {
   function adjustCardHeight() {
 
     resetDefaultCardHeight();
-
-    (cogs187a.height() > itzlit.height()) ? itzlit.height(cogs187a.height())
-                                            : cogs187a.height(itzlit.height());
-
-    (youber.height() > tritoned.height()) ? tritoned.height(youber.height())
-                                            : youber.height(tritoned.height());
 
     (johngamboa.height() > fitkit.height()) ? fitkit.height(johngamboa.height())
                                             : johngamboa.height(fitkit.height());
