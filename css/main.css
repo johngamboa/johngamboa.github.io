@@ -191,6 +191,18 @@ h2, h6 {
   height: 256px;
 }
 
+#iotea > div.mdl-card__title {
+  background: url('../assets/img/iotea.png') center / cover;
+}
+
+#enque > div.mdl-card__title {
+  background: url('../assets/img/enque.png') center / cover;
+}
+
+#magicdex > div.mdl-card__title {
+  background: url('../assets/img/magicdex.png') center / cover;
+}
+
 #cogs187a > div.mdl-card__title {
   background: url('../assets/img/cogs187a.png') center / cover;
 }
